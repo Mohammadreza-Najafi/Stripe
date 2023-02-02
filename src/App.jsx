@@ -1,4 +1,3 @@
-import { useState } from 'react'
 import Navbar from "./component/Navbar.jsx";
 import Sidebar from "./component/Sidebar.jsx";
 import Hero from "./component/Hero.jsx";
@@ -11,7 +10,7 @@ function App() {
       <Navbar/>
       {/*<Sidebar/>*/}
       <Hero/>
-      {/*<Submenu/>*/}
+      <Submenu/>
     </>
   )
 }
