@@ -8,10 +8,10 @@ function App() {
 
   return (
     <>
-      <Navbar/>
-      <Sidebar/>
+      {/*<Navbar/>*/}
+      {/*<Sidebar/>*/}
       <Hero/>
-      <Submenu/>
+      {/*<Submenu/>*/}
     </>
   )
 }
