@@ -2,11 +2,14 @@ import {useGlobalContext} from "../context.jsx"
 import phoneImg from '../images/phone.svg'
 
 const Hero=() =>{
+
     const {closeSubmenu}=useGlobalContext();
 
     return(
         <section className='hero' onMouseOver={closeSubmenu}>
+
             <div className="hero-center">
+
                 <article className="hero-info">
                     <h1>
                         Payments infrastructure<br/>
@@ -19,12 +22,13 @@ const Hero=() =>{
                     </p>
                     <button className="btn">Start now</button>
                 </article>
+
                 <article className="hero-images">
-
                     <img src={phoneImg} className='phone-img' alt="phone"/>
-
                 </article>
+
             </div>
+
         </section>
     )
 
