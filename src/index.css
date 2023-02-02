@@ -183,9 +183,8 @@ Stripe Styles
     height: 65%;
     top: 0;
     left: 0;
-    background: url(./images/hero.svg);
     background-size: cover;
-    background-repeat: no-repeat;
+    background: url(images/hero.svg) no-repeat;
     z-index: -1;
 }
 .hero {
