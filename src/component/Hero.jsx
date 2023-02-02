@@ -1,4 +1,5 @@
-import {useGlobalContext} from "../context.jsx";
+import {useGlobalContext} from "../context.jsx"
+import phoneImg from '../images/phone.svg'
 
 const Hero=() =>{
     const {closeSubmenu}=useGlobalContext();
@@ -19,7 +20,9 @@ const Hero=() =>{
                     <button className="btn">Start now</button>
                 </article>
                 <article className="hero-images">
-                    <img src="{phoneImg}" className='phone-img' alt="phone"/>
+
+                    <img src={phoneImg} className='phone-img' alt="phone"/>
+
                 </article>
             </div>
         </section>
